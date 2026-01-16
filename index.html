@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CHARACTER COUNTER</title>
+</head>
+<body>
+  <header>
+  <h1 class="h1">Analyze your text
+    <span>in real time.</span></h1>
+  <button class="toggle">toggle</button>
+  </header>
+ <section class="first-sect">
+   <textarea class="text-area"></textarea>
+   <input type="checkbox" class="exclude">
+   <label>Exclude space</label>
+   <input type="checkbox" class="limit">
+   <label>Set character limit</label>
+ </section>
+
+ <section class="second-sect">
+  <div class="character-div">
+    <p class="character-count">0</p>
+    <p class="character-para">Total characters</p>
+  </div>
+  <div class="word-div">
+    <p class="word-count">0</p>
+    <p class="word-para">Word count</p>
+  </div>
+  <div class="sentence-div">
+    <p class="sentence-count">0</p>
+    <p class="sentence-para">Sentence court</p>
+  </div>
+ </section>
+
+ <section class="third-sect">
+  <h2>Letter Density</h2>
+  <p class="most-appeared">Most appeard letter</p>
+  <p>SECOND Most appeard letter</p>
+  <p>THIRD Most appeard letter</p>
+ </section>
+
+ <script src="script.js"></script>
+</body>
+</html>
